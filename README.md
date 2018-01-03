@@ -1,12 +1,15 @@
+[Installation Tutorial](https://github.com/Tai7sy/card-system/wiki/BT%E9%9D%A2%E6%9D%BF%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B)<br>
+[BT面板安装教程](https://github.com/Tai7sy/card-system/wiki/BT%E9%9D%A2%E6%9D%BF%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B)<br><br>
+
 ## Require
-PHP >= 5.6.4
+PHP >= 7.0.0
 
 ## Install
  - Remember the root of website is `path_to_project/public` !
  - Change folder permission
 ```
-chmod -R 666 storage/
-chmod -R 666 bootstrap/cache/
+chmod -R 777 storage/
+chmod -R 777 bootstrap/cache/
 ```
  - Renamed the .env.example file to .env
  - Config .env file (according to yourself)
@@ -25,7 +28,7 @@ php artisan config:cache
 </br>
 
 ## 要求
-PHP >= 5.6.4
+PHP >= 7.0.0
 
 ## 安装
  - 网页根目录是 `项目路径/public`, 配置网站时请注意!
@@ -38,8 +41,8 @@ cp .env.example .env #linux
  - 将 card.sql 导入到数据库
  - 修改目录权限(Linux)
 ```
-chmod -R 666 storage/
-chmod -R 666 bootstrap/cache/
+chmod -R 777 storage/
+chmod -R 777 bootstrap/cache/
 ```
  - 优化 (可选)
 ```
